@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.7) url('music.JPG') center center fixed;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+.content{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+}
+
+.content h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 40%;
+}
+
+.content h1{
+    font-size: 50px;
+    align-items: center;
+}
+
+.content p{
+    text-align: center;
+    margin-top: 17px;
+}
+
+
+.submit{
+    position: absolute;
+    margin-top: 29%;
+    margin-left: 47%;
+}
+
+.submit a{
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 25px;
+    background-color: rgb(125, 112, 226);
+}
